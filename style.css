@@ -7,16 +7,22 @@
     box-sizing: border-box;
 }
 
+html {
+    height: 100%;
+    min-height: 100%;
+}
+
 body {
     background-color: #F8FAFD;
     font-family: 'Inter', sans-serif;
     color: #252525;
-    padding: 2rem;
+    
 }
 
 main {
     max-width: 780px;
     margin: 0 auto;
+    padding: 2rem;
 }
 
 .hero {
@@ -254,6 +260,39 @@ main {
     background-color: #9b51e0;
 }
 
+footer {
+
+    background-color: #FFF;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    bottom:0;
+    left:0;
+}
+
+.footer-p {
+    padding: 10px;
+}
+
+.footer-icons {
+    padding-bottom: 5px;
+}
+
+.footer-icons a {
+    padding: 0 2px;
+    font-size: 1.5rem;
+}
+
+.footer-icons span {
+    color: #bb6bd9;
+    font-size: 30px;
+    margin: 0 5px;
+   
+}
+
+.footer-icons span:hover {
+    color: #9b51e0;
+}
 @media only screen and (max-width: 480) {
     .password {
         padding: 1rem;
